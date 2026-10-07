@@ -1,0 +1,84 @@
+section{
+  /* border:2px solid; */
+  height: 300px;
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  gap:10px;
+}
+
+div{
+  border: 2px solid;
+  height: 100px;
+  width: 100px;
+}
+#d2,#d3{
+  /* display: inline-flex; */
+  
+}
+span{
+  border: 2px solid red;
+  height: 150px;
+  width: 150px;
+  display: inline-flex;
+}
+
+#d2{
+  /* display: block; */
+  /* display: none; */
+ display: inline-flex;
+ /* height: 10px; */
+}
+#d1{
+
+}
+#d3{
+  display: inline-block;
+ height: 100px;
+}
+  
+
+
+#d4{
+
+}
+nav{
+  border: 2px solid;
+  background-color: brown;
+
+}
+nav ol{
+  height: 100px;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  justify-content: space-between;
+  justify-content: space-evenly;
+  justify-content: center;
+  /* justify-content: start;
+  flex-direction: column;
+  flex-direction: row;
+  flex-direction: row-reverse;
+  flex-direction: column-reverse; */
+  align-items: flex-end;
+  gap:20px;
+  flex-wrap: wrap;
+  /* flex-wrap: nowrap; */
+}
+
+main{
+  border: 2px solid;
+  height: 250px;
+  width: 250px;
+  display: flex;
+  gap:20px;
+  flex-wrap: nowrap;
+  /* flex-wrap: wrap; */
+  /* flex-wrap: wrap-reverse; */
+}
+
+article{
+  /* border: 2px solid;
+  height: 20px;
+  width: 20px; */
+}
